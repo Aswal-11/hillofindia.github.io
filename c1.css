@@ -1,0 +1,109 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background: url(1015190.jpg) fixed no-repeat ;
+    background-size: 1538px 800px;
+   
+    
+}
+.logo
+{
+    width:100px;
+    cursor: pointer;
+}
+.navbar
+{
+   
+    border-radius: 20px;  
+}
+header
+{
+    padding: 12px;
+    position: sticky;
+    top: 0%;
+}
+
+ul
+{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    list-style: none;
+    margin-top: 1vh;
+    margin-left: 1vw; 
+    
+   
+}
+
+
+.a
+{
+    display:inline-block;
+ 
+}
+.b
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1
+{
+ text-align: center;
+ color: aliceblue;
+ font-family: 'Oswald', sans-serif;
+ font-size: 2cm;
+
+}
+
+.para
+{ position: absolute;
+  top:50vh;
+  width: 45vw;
+  margin-left: 27.3vw;
+  text-align: center;
+  color: aliceblue;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.5cm;
+}
+
+.container
+{
+    display: grid;
+    
+    grid-template-columns:200px 200px 200px;
+    /* grid-template-rows: 200px 200px; */
+    grid-row-gap:15px;
+    grid-column-gap: 30vh;
+    position: absolute;
+    top:100vh;
+    left:12vw;
+    
+    
+}
+.im{
+    transition: 0.4s;
+}
+.im:hover {
+   transform: scale(1.2);
+   box-shadow: 2px 2px 2px 2px ;
+  }
+
+.phone
+{   border-radius:12px ;
+    height: 200px;
+    width:300px;
+    background-color: aliceblue;
+}
+
+
+footer
+{
+    position: absolute;
+    top:1380px;
+    color: aliceblue;
+
+}
